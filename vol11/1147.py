@@ -12,4 +12,4 @@ while True:
 
     s = sorted(s)
     del s[0], s[-1]
-    print(math.trunc(sum(s)/len(s)))
+    print(math.trunc(sum(s) / len(s)))

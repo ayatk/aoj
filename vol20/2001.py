@@ -15,4 +15,4 @@ while True:
     for j in range(m):
         b[w[j][1] - 1], b[w[j][2] - 1] = b[w[j][2] - 1], b[w[j][1] - 1]
 
-    print(b[a-1])
+    print(b[a - 1])
